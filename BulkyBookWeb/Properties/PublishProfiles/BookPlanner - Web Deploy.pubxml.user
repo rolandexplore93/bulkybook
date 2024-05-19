@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjmDDmtTepkaBnUa5uFEnZwAAAAACAAAAAAAQZgAAAAEAACAAAABJ+CCnP0+nqgIYoqFCIx4fwJ+VS+gtrnwF4D1qM8MDkgAAAAAOgAAAAAIAACAAAAAFGxIYm+4Om6BMhCwZOD3iRruq88hlQRTLak21gtZJn4AAAAClSCBZzX4uCBvZYRDXqJlOMql4204fDO9vQhVGKNE7jzxIiVQ3vE9gCySEROZYUGXpG7tfkky9TuaeIekX+O7bgpJKBDtqzeGa4gnx0uqd7xGM+NJypR6VBM/N6Vj8NvNYcMOS2xr7J2tFHxwhC+gsHqTTmrkpZkU6BksCNe9e90AAAAA1zvtlqpxjuMxiD94cM/amB0jkDO58fnEEaNfBEatE9EP1m4FJjXg95iqmlPvOlktKD4UdFka1vrjNO7cr4JxI</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:rolandbulkybookserver.database.windows.net,1433%3bInitial Catalog=bulkybook_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=CSCChm/2011/%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
